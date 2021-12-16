@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>newtp7</title>
+    <link rel="stylesheet" href="stayletp7.css">
+    <form action="#" method="post">
+        <h1>
+            Sing up
+        </h1>
+<fieldset>
+    <legend>
+        My info
+    </legend>
+    <label for="name">  your name</label>
+    <input type="text" id="name" name="name" placeholder="entrer votre nom " required maxlength="25" minlength="4" autofocus>
+<label for="password">  your password</label>
+<input type="password" id="password" name="password" placeholder="entrer votre password " required maxlength="25" minlength="8">
+<label for="email">  your email</label>
+<input type="email" id="email" name="email" placeholder="entrer votre email " required maxlength="25" minlength="10">
+<label for="age">your age</label>
+<input type="radio" name="age" id="age-over-13" checked><label for="over-13">age-over-13</label>
+<input type="radio" name="age" id="age-under-13"><label for="under-13">age-under-13</label>
+
+</fieldset>
+<fieldset>
+    <legend>
+        your profile
+    </legend>
+    <textarea name="bio" id="bio" cols="80" rows="10" placeholder="entrer votre bio" minlength="12" maxlength="255"></textarea>
+    <label for="YOUR-JOB" ></label>
+
+    <select name="job" id="job">
+        <option value="front-developer">front-developer</option>
+        <option value="backend_developer">backend-developer</option>
+        <option value="full_stack_developer" selected>full_stack-developer</option>
+    </select>
+
+    <label for="interests"> interests</label>
+    <input type="checkbox" name="interests" id="" value="reading"><label for="reading">reading</label>
+    <input type="checkbox" name="interests" id="" value="gaming"><label for="gaming">gaming</label>
+    <input type="checkbox" name="interests" id="" value="fiching"><label for="fiching">fiching</label>
+    <input type="checkbox" name="interests" id="" value="sport"><label for="sport">sport</label>
+
+</fieldset>
+<input type="hidden" name="ip_addresse" value="ip">
+<input type="submit" value="save">
+    </form>
+</head>
+<body>
+    
+</body>
+
+</html>
